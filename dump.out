@@ -1,0 +1,140 @@
+
+ ===================================================
+  XFOIL Version 6.97
+  Copyright (C) 2000   Mark Drela, Harold Youngren
+
+  This software comes with ABSOLUTELY NO WARRANTY,
+    subject to the GNU General Public License.
+
+  Caveat computor
+ ===================================================
+
+ File  xfoil.def  not found
+
+   QUIT    Exit program
+
+  .OPER    Direct operating point(s)
+  .MDES    Complex mapping design routine
+  .QDES    Surface speed design routine
+  .GDES    Geometry design routine
+
+   SAVE f  Write airfoil to labeled coordinate file
+   PSAV f  Write airfoil to plain coordinate file
+   ISAV f  Write airfoil to ISES coordinate file
+   MSAV f  Write airfoil to MSES coordinate file
+   REVE    Reverse written-airfoil node ordering
+   DELI i  Change written-airfoil file delimiters
+
+   LOAD f  Read buffer airfoil from coordinate file
+   NACA i  Set NACA 4,5-digit airfoil and buffer airfoil
+   INTE    Set buffer airfoil by interpolating two airfoils
+   NORM    Buffer airfoil normalization toggle
+   HALF    Halve the number of points in buffer airfoil
+   XYCM rr Change CM reference location, currently  0.25000 0.00000
+
+   BEND    Display structural properties of current airfoil
+
+   PCOP    Set current-airfoil panel nodes directly from buffer airfoil points
+   PANE    Set current-airfoil panel nodes ( 160 ) based on curvature
+  .PPAR    Show/change paneling
+
+  .PLOP    Plotting options
+
+   WDEF f  Write  current-settings file
+   RDEF f  Reread current-settings file
+   NAME s  Specify new airfoil name
+   NINC    Increment name version number
+
+   Z       Zoom    | (available in all menus)
+   U       Unzoom  | 
+
+ XFOIL   c>  
+ Plain airfoil file
+
+Enter airfoil name   s>  
+ Number of input coordinate points: 201
+ Clockwise ordering
+ Max thickness =     0.200074  at x =   0.295
+ Max camber    =     0.034965  at x =   0.454
+
+  LE  x,y  =  -0.00082   0.00862  |   Chord =   1.00086
+  TE  x,y  =   1.00000   0.00000  |
+
+ Current airfoil nodes set from buffer airfoil nodes ( 201 )
+
+ XFOIL   c>  
+ Blunt trailing edge.  Gap =  0.00416
+
+ Paneling parameters used...
+   Number of panel nodes       160
+   Panel bunching parameter    1.000
+   TE/LE panel density ratio   0.150
+   Refined-area/LE panel density ratio    0.200
+   Top    side refined area x/c limits  1.000 1.000
+   Bottom side refined area x/c limits  1.000 1.000
+
+ XFOIL   c>   ...............................................
+
+  G raphics-enable flag:        T
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>   ...............................................
+
+  G raphics-enable flag:        F
+  S ize of plot object          10.00"
+  A spect ratio of plot object   0.5500
+  P age dimensions              11.00 x  8.50"
+  M argins from page edges       0.00",  0.00"
+  F ont size (relative)          0.0150
+  W indow/screen size fraction   0.8000
+  B lowup input method:        Cursor    
+  O rientation of plot:        Landscape 
+  C olor PostScript output?     F
+
+      Option, Value   (or <Return>)    c>  
+ XFOIL   c>  
+.OPERi   c>  
+ M  =    0.0000
+ Re =  0.2142E+06
+
+.OPERv   c>  
+ Sonic Cp =   -498.93      Sonic Q/Qinf =    24.856
+
+
+.OPERv   c>  
+ M  =    0.0367
+ Re =  0.2142E+06
+
+.OPERv   c>  
+ Polar  1 newly created for accumulation
+ Airfoil archived with polar: GuyMartin                                       
+
+Enter  polar save filename  OR  <return> for no file   s>  
+              Current                         Save file
+          ------------------              ------------------
+ name :   GuyMartin                                       GuyMartin                                       
+ Re   :        214213.                         214000.
+ Mach :         0.0367                          0.0370
+ Retyp:         1                               1
+ Matyp:         1                               1
+ Ncrit:         9.0000                          9.0000
+ xtr T:         1.0000                          1.0000
+ xtr B:         1.0000                          1.0000
+
+ Current parameters different from old save file values.
+
+Set current parameters to old save file values ? y/n>  
+Set current parameters to old save file values ? y/n>  
+Set current parameters to old save file values ? y/n>  
+Set current parameters to old save file values ? y/n>  
+Set current parameters to old save file values ? y/n>  
+Set current parameters to old save file values ? y/n>  
+Set current parameters to old save file values ? y/n>  
